@@ -134,30 +134,34 @@ void tambahData(vector<Handphone> &hp) {
 int main() {
     vector<Handphone> hp;
 
-    // Tambah 5 data default
-    Handphone h1, h2, h3, h4, h5;
+    vector<Handphone> hp;
+    Handphone henpun;
 
-    h1.setIdProduk("P001"); h1.setNama("Galaxy S21"); h1.setSeries("S"); h1.setManufaktur("Samsung");
-    h1.setTipeOS("Android"); h1.setProcessor("Snapdragon 888");
-    h1.setRAM(8); h1.setStorage(256); h1.setBattery(4000); h1.setHarga(15000000);
+    // Tambah 5 data hardcode dengan 1 objek
+    henpun.setIdProduk("P001"); henpun.setNama("Galaxy S21"); henpun.setSeries("S"); henpun.setManufaktur("Samsung");
+    henpun.setTipeOS("Android"); henpun.setProcessor("Snapdragon 888");
+    henpun.setRAM(8); henpun.setStorage(256); henpun.setBattery(4000); henpun.setHarga(15000000);
+    hp.push_back(henpun);
 
-    h2.setIdProduk("P002"); h2.setNama("iPhone 14"); h2.setSeries("14"); h2.setManufaktur("Apple");
-    h2.setTipeOS("iOS"); h2.setProcessor("A15 Bionic");
-    h2.setRAM(6); h2.setStorage(128); h2.setBattery(3800); h2.setHarga(18000000);
+    henpun.setIdProduk("P002"); henpun.setNama("iPhone 14"); henpun.setSeries("14"); henpun.setManufaktur("Apple");
+    henpun.setTipeOS("iOS"); henpun.setProcessor("A15 Bionic");
+    henpun.setRAM(6); henpun.setStorage(128); henpun.setBattery(3800); henpun.setHarga(18000000);
+    hp.push_back(henpun);
 
-    h3.setIdProduk("P003"); h3.setNama("Pixel 7"); h3.setSeries("7"); h3.setManufaktur("Google");
-    h3.setTipeOS("Android"); h3.setProcessor("Tensor G2");
-    h3.setRAM(8); h3.setStorage(128); h3.setBattery(4350); h3.setHarga(12000000);
+    henpun.setIdProduk("P003"); henpun.setNama("Pixel 7"); henpun.setSeries("7"); henpun.setManufaktur("Google");
+    henpun.setTipeOS("Android"); henpun.setProcessor("Tensor G2");
+    henpun.setRAM(8); henpun.setStorage(128); henpun.setBattery(4350); henpun.setHarga(12000000);
+    hp.push_back(henpun);
 
-    h4.setIdProduk("P004"); h4.setNama("Xiaomi 13"); h4.setSeries("13"); h4.setManufaktur("Xiaomi");
-    h4.setTipeOS("Android"); h4.setProcessor("Snapdragon 8 Gen 2");
-    h4.setRAM(12); h4.setStorage(256); h4.setBattery(4820); h4.setHarga(9000000);
+    henpun.setIdProduk("P004"); henpun.setNama("Xiaomi 13"); henpun.setSeries("13"); henpun.setManufaktur("Xiaomi");
+    henpun.setTipeOS("Android"); henpun.setProcessor("Snapdragon 8 Gen 2");
+    henpun.setRAM(12); henpun.setStorage(256); henpun.setBattery(4820); henpun.setHarga(9000000);
+    hp.push_back(henpun);
 
-    h5.setIdProduk("P005"); h5.setNama("OnePlus 11"); h5.setSeries("11"); h5.setManufaktur("OnePlus");
-    h5.setTipeOS("Android"); h5.setProcessor("Snapdragon 8 Gen 2");
-    h5.setRAM(16); h5.setStorage(256); h5.setBattery(5000); h5.setHarga(11000000);
-
-    hp = {h1, h2, h3, h4, h5};
+    henpun.setIdProduk("P005"); henpun.setNama("OnePlus 11"); henpun.setSeries("11"); henpun.setManufaktur("OnePlus");
+    henpun.setTipeOS("Android"); henpun.setProcessor("Snapdragon 8 Gen 2");
+    henpun.setRAM(16); henpun.setStorage(256); henpun.setBattery(5000); henpun.setHarga(11000000);
+    hp.push_back(henpun);
 
     int pilihan;
     do {
