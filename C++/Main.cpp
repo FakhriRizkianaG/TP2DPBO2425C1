@@ -133,8 +133,6 @@ void tambahData(vector<Handphone> &hp) {
 
 int main() {
     vector<Handphone> hp;
-
-    vector<Handphone> hp;
     Handphone henpun;
 
     // Tambah 5 data hardcode dengan 1 objek
