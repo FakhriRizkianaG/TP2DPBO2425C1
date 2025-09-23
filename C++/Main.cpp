@@ -162,7 +162,7 @@ int main() {
     hp.push_back(henpun);
 
     int pilihan;
-    do {
+    while (true) {
         cout << "\n=== MENU ===\n";
         cout << "[1] Tampilkan data\n";
         cout << "[2] Tambah data\n";
@@ -174,17 +174,21 @@ int main() {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "[!] Input tidak valid. Masukkan angka 0, 1, atau 2.\n";
-            continue;
+            continue; // Kembali ke menu tanpa keluar
         }
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-        switch (pilihan) {
-            case 1: tampilkanData(hp); break;
-            case 2: tambahData(hp); break;
-            case 0: cout << "Have a nice day :D\n"; break;
-            default: cout << "[!] Pilihan tidak tersedia.\n"; break;
+        if (pilihan == 0) {
+            cout << "Have a nice day :D\n";
+            break; // keluar dari while(true)
+        } else if (pilihan == 1) {
+            tampilkanData(hp);
+        } else if (pilihan == 2) {
+            tambahData(hp);
+        } else {
+            cout << "[!] Pilihan tidak tersedia. Coba lagi.\n";
         }
-    } while (pilihan != 0);
+    }
 
     return 0;
 }
