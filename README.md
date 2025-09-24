@@ -57,4 +57,8 @@ ada juga error handling di bagian menu<br>
 ada juga fitur exit untuk exit program<br>
 <img width="300" height="196" alt="Screenshot 2025-09-24 211248" src="https://github.com/user-attachments/assets/560b9bde-5772-433b-842b-12b9d92c30a7" />
 
+<br>
+<h3>Versi Web</h3>
+untuk versi web, hanya menampilkan barang yang ada<br>
+<img width="1919" height="1079" alt="Screenshot 2025-09-24 195111" src="https://github.com/user-attachments/assets/1f8eea87-fca8-4f41-992f-6f14554681a6" />
 
