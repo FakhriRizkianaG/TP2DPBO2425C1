@@ -16,23 +16,21 @@ Program memiliki struktur sbb:<br>
 Ada 3 Class yang akan digunakan di dalam program ini, yaitu:
 
 Pertama Class Produk [Produk dari toko] dengan atribut: <br>
-id_produk(str) digunakan untuk identifikasi <br>
-Nama(str) nama dari produk<br>
-Harga(int) harga dari produk<br>
-Images(str) gambar (khusus php)<br>
+id_produk(str) -> digunakan untuk identifikasi <br>
+Nama(str) -> nama dari produk<br>
+Harga(int) -> harga dari produk<br>
+Images(str) -> gambar (khusus php)<br>
 
 Kedua Class SpecHandphone [Spesifikasi Handphone] yang merupakan child dari Class Produk dengan atribut: <br>
-Processor(str) processor dari handphone<br>
-RAM(int) besar ram dari handphone<br>
-Storage(int) besar penyimpanan dari handphone<br>
-Battery(int) kapasitas baterai dari handphone<br>
+Processor(str) -> processor dari handphone<br>
+RAM(int) -> besar ram dari handphone<br>
+Storage(int) -> besar penyimpanan dari handphone<br>
+Battery(int) -> kapasitas baterai dari handphone<br>
 
 Ketiga Class Handphone [Handphone itu sendiri]  yang merupakan child dari Class SpecHandphone dengan atribut: 
-Manufaktur(str) Tempat dibuatnya handphone<br>
-Series(str) Seri dari handphone<br>
-TipeOS(str) Tipe OS dari handphone tsb<br>
+Manufaktur(str) -> Tempat dibuatnya handphone<br>
+Series(str) -> Seri dari handphone<br>
+TipeOS(str) -> Tipe OS dari handphone tsb<br>
 
 # Alur Program
-
-
-# Dokumentasi
+Program ini akan dijalankan dengan menggunakan CLI untuk bahasa C++, Java, dan Python. Sedangkan untuk PHP akan dijalankan dengan menggunakan web.
