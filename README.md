@@ -15,19 +15,24 @@ Program memiliki struktur sbb:<br>
 <h3>Penjelasan Struktur</h3>
 Ada 3 Class yang akan digunakan di dalam program ini, yaitu:
 
-Pertama Class Produk dengan atribut: <br>
-id_produk(str) <br>
-Nama(str) <br>
-Harga(int) <br>
-Images(str) <br>
+Pertama Class Produk [Produk dari toko] dengan atribut: <br>
+id_produk(str) digunakan untuk identifikasi <br>
+Nama(str) nama dari produk<br>
+Harga(int) harga dari produk<br>
+Images(str) gambar (khusus php)<br>
 
-Kedua Class SpecHandphone yang merupakan child dari Class Produk dengan atribut: <br>
-Processor(str) <br>
-RAM(int) <br>
-Storage(int) <br>
-Battery(int) <br>
+Kedua Class SpecHandphone [Spesifikasi Handphone] yang merupakan child dari Class Produk dengan atribut: <br>
+Processor(str) processor dari handphone<br>
+RAM(int) besar ram dari handphone<br>
+Storage(int) besar penyimpanan dari handphone<br>
+Battery(int) kapasitas baterai dari handphone<br>
 
-Ketiga Class Handphone yang merupakan child dari Class SpecHandphone dengan atribut: 
-Manufaktur(str) <br>
-Series(str) <br>
-TipeOS(str) <br>
+Ketiga Class Handphone [Handphone itu sendiri]  yang merupakan child dari Class SpecHandphone dengan atribut: 
+Manufaktur(str) Tempat dibuatnya handphone<br>
+Series(str) Seri dari handphone<br>
+TipeOS(str) Tipe OS dari handphone tsb<br>
+
+# Alur Program
+
+
+# Dokumentasi
