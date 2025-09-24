@@ -19,7 +19,7 @@
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KPLLE-NeSLbvwShS_ed7-5" value="SpekHandphone" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="205" width="140" height="120" as="geometry" />
+          <mxGeometry x="340" y="205" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="KPLLE-NeSLbvwShS_ed7-6" value="Processor(str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KPLLE-NeSLbvwShS_ed7-5" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -30,10 +30,13 @@
         <mxCell id="KPLLE-NeSLbvwShS_ed7-8" value="Storage(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KPLLE-NeSLbvwShS_ed7-5" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="_bSVmLhpM3Q1GpuMXTL9-8" value="Battery(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KPLLE-NeSLbvwShS_ed7-5">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="KPLLE-NeSLbvwShS_ed7-9" value="Produk" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="190" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="KPLLE-NeSLbvwShS_ed7-10" value="Id_produk(str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KPLLE-NeSLbvwShS_ed7-9" vertex="1">
+        <mxCell id="KPLLE-NeSLbvwShS_ed7-10" value="Id_produk(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KPLLE-NeSLbvwShS_ed7-9" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KPLLE-NeSLbvwShS_ed7-11" value="Nama(str)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KPLLE-NeSLbvwShS_ed7-9" vertex="1">
