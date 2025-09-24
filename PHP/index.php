@@ -2,15 +2,15 @@
 require_once "Handphone.php";
 
 $hpList = [
-    new Handphone("P001", "Galaxy S21", 15000000, "images/galaxy_s21.jpg",
+    new Handphone("P001", "Galaxy S21", 15000000, "images/Phone1.png",
         "Snapdragon 888", 8, 256, 4000, "Samsung", "S", "Android"),
-    new Handphone("P002", "iPhone 14", 18000000, "images/iphone14.jpg",
+    new Handphone("P002", "iPhone 14", 18000000, "images/Phone2.png",
         "A15 Bionic", 6, 128, 3800, "Apple", "14", "iOS"),
-    new Handphone("P003", "Pixel 7", 12000000, "images/pixel7.jpg",
+    new Handphone("P003", "Pixel 7", 12000000, "images/Phone3.png",
         "Tensor G2", 8, 128, 4350, "Google", "7", "Android"),
-    new Handphone("P004", "Xiaomi 13", 9000000, "images/xiaomi13.jpg",
+    new Handphone("P004", "Xiaomi 13", 9000000, "images/Phone4.png",
         "Snapdragon 8 Gen 2", 12, 256, 4820, "Xiaomi", "13", "Android"),
-    new Handphone("P005", "OnePlus 11", 11000000, "images/oneplus11.jpg",
+    new Handphone("P005", "OnePlus 11", 11000000, "images/Phone5.png",
         "Snapdragon 8 Gen 2", 16, 256, 5000, "OnePlus", "11", "Android"),
 ];
 ?>
